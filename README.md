@@ -7,7 +7,7 @@ Recommending API for Redis
 [![Download Count](https://poser.pugx.org/redis/ranking/downloads.png)](https://packagist.org/packages/redis/recommend)
 
 
-Abstracting Redis's `Sorted Set` APIs to use as a recommending system.
+Abstracting Redis's `Sorted Set` APIs and PHP to use as a recommending system.
 
 Requirements
 -----------------------------
