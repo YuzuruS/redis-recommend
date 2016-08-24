@@ -29,13 +29,13 @@ Installation
 ```
 {
     "require": {
-       "redis/recommend": "1.0.*"
+       "YuzuruS/recommend": "1.0.*"
     }
 }
 ```
 
 ```
-$ php composer.phar update redis/recommend --dev
+$ php composer.phar update YuzuruS/recommend --dev
 ```
 
 

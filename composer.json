@@ -1,5 +1,5 @@
 {
-    "name": "redis/recommend",
+    "name": "YuzuruS/recommend",
     "description": "Wrapping Redis's sorted set APIs for specializing recommending operations.",
     "keywords": ["redis", "recommend", "sorted set", "Jaccard", "Social Game"],
     "homepage": "https://github.com/YuzuruS/redis-recommend",
