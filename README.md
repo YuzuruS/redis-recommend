@@ -29,13 +29,13 @@ Installation
 ```
 {
     "require": {
-       "YuzuruS/recommend": "1.0.*"
+       "yuzuru-s/recommend": "1.0.*"
     }
 }
 ```
 
 ```
-$ php composer.phar update YuzuruS/recommend --dev
+$ php composer.phar update yuzuru-s/recommend --dev
 ```
 
 
