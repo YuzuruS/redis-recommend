@@ -4,7 +4,7 @@
     "keywords": ["redis", "recommend", "sorted set", "Jaccard", "Social Game"],
     "homepage": "https://github.com/YuzuruS/redis-recommend",
     "type": "library",
-    "license": "PHP3",
+    "license": "MIT",
     "require" : {
         "php": ">=5.5.0"
     },

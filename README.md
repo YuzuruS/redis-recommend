@@ -59,7 +59,7 @@ History
 
 License
 ----------------------------
-It is released under the [PHP License, version 3.01](http://www.php.net/license/3_01.txt).
+MIT
 
 Copyright
 -----------------------------
