@@ -4,7 +4,7 @@ namespace YuzuruS\Redis;
  * Recommend
  *
  * @author Yuzuru Suzuki <navitima@gmail.com>
- * @license PHP Version 3.0 {@link http://www.php.net/license/3_0.txt}
+ * @license MIT
  */
 class Recommend
 {
