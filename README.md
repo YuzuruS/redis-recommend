@@ -72,7 +72,7 @@ History
 
 License
 ----------------------------
-MIT
+Copyright (c) 2016 YUZURU SUZUKI. See MIT-LICENSE for further details.
 
 Copyright
 -----------------------------
