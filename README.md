@@ -1,13 +1,15 @@
-Recommending API for Redis
+Simple Recommendation library for Redis and PHP
 =============================
 
-[![Coverage Status](https://coveralls.io/repos/YuzuruS/redis-recommend/badge.png?branch=master)](https://coveralls.io/r/YuzuruS/redis-recommend)
+[![Coverage Status](https://coveralls.io/repos/github/YuzuruS/redis-recommend/badge.svg?branch=master)](https://coveralls.io/github/YuzuruS/redis-recommend?branch=master)
 [![Build Status](https://travis-ci.org/YuzuruS/redis-recommend.png?branch=master)](https://travis-ci.org/YuzuruS/redis-recommend)
-[![Stable Version](https://poser.pugx.org/redis/recommend/v/stable.png)](https://packagist.org/packages/redis/recommend)
-[![Download Count](https://poser.pugx.org/redis/ranking/downloads.png)](https://packagist.org/packages/redis/recommend)
+[![Stable Version](https://poser.pugx.org/yuzuru-s/recommend/v/stable)](https://packagist.org/packages/yuzuru-s/recommend)
+[![Download Count](https://poser.pugx.org/yuzuru-s/recommend/downloads.png)](https://packagist.org/packages/yuzuru-s/recommend)
 
+Abstracting Redis's `Sorted Set` APIs and PHP to use as a recommending system.
+This Recommendation algorithm use "Collaborative Filtering", especially [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index).
 
-Abstracting Redis's `Sorted Set` APIs to use as a recommending system.
+Please [here](http://qiita.com/yudsuzuk/items/6de4650cb6d50236533e) for details.
 
 Requirements
 -----------------------------
@@ -38,6 +40,10 @@ Installation
 $ php composer.phar update yuzuru-s/recommend --dev
 ```
 
+How to use
+----------------------------
+Please check [sample code](https://github.com/YuzuruS/redis-recommend/blob/master/sample/usecase.php)
+
 
 How to run unit test
 ----------------------------
@@ -52,6 +58,8 @@ Currently tested with PHP 7.0.0 + Redis 2.6.12.
 
 History
 ----------------------------
+- 1.0.5
+  - supports travis CI and passed test and display code coverage.
 - 1.0.0
   - Published
 
