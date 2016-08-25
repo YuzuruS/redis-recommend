@@ -6,8 +6,13 @@ Simple Recommendation library for Redis and PHP
 [![Stable Version](https://poser.pugx.org/yuzuru-s/recommend/v/stable)](https://packagist.org/packages/yuzuru-s/recommend)
 [![Download Count](https://poser.pugx.org/yuzuru-s/recommend/downloads.png)](https://packagist.org/packages/yuzuru-s/recommend)
 
-Abstracting Redis's `Sorted Set` APIs and PHP to use as a recommending system.
-This Recommendation algorithm use "Collaborative Filtering", especially [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index).
+Abstracting Redis's `Sorted Set` APIs and PHP to use as a recommending system.  
+This Recommendation algorithm use `Collaborative Filtering`, especially [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index)
+
+This Recommendation algorithm is used by [Amazon.com](https://www.amazon.com/)
+
+![Amazon](https://cloud.githubusercontent.com/assets/1485195/17956534/72ca4d3a-6ac5-11e6-985e-9074251b5f35.jpg)
+
 
 Please [here](http://qiita.com/yudsuzuk/items/6de4650cb6d50236533e) for details.
 
