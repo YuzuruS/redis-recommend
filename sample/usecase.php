@@ -33,12 +33,14 @@ $ratings = [
 
 $all_item_ids = [1,2,3,4,5,6,7];
 
+// make rating
 foreach ($ratings as $rating) {
 	foreach($rating['item_id'] as $item_id) {
 		$recommend->setRating($rating['user_id'], $item_id);
 	}
 }
 
+// calclation of jaccard
 $recommend->calcJaccard($all_item_ids);
 
 /**
@@ -49,4 +51,5 @@ $recommend->calcJaccard($all_item_ids);
 	  string(1) "3"
 	}
 */
+// get recommended items of item_id:1
 var_dump($recommend->getItems(1));
