@@ -87,9 +87,6 @@ class Recommend
                 }
                 $jaccard = $intersect / $join;
 
-                if ($jaccard == 0) {
-                    continue;
-                }
                 $this->redis->zAdd($this->j_ns . $item_id1, $jaccard, $item_id2);
             }
         }

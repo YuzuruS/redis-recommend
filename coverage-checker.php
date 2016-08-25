@@ -24,7 +24,7 @@ $coverage = ($checkedElements / $totalElements) * 100;
 
 if ($coverage < $percentage) {
     echo 'Code coverage is ' . $coverage . '%, which is below the accepted ' . $percentage . '%' . PHP_EOL;
-    exit(0);
+    exit(1);
 }
 
 echo 'Code coverage is ' . $coverage . '% - OK!' . PHP_EOL;

@@ -63,7 +63,7 @@ class RecommendTest extends \PHPUnit_Framework_TestCase
      */
     public function testCalcJaccard()
     {
-        $return = $this->recommend->calcJaccard([1,2,3,4,5,6,7]);
+        $return = $this->recommend->calcJaccard([1,2,3,4,5,6,7,8]);
         $this->assertTrue($return);
     }
     /**
