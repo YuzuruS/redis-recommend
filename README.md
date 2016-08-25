@@ -14,7 +14,7 @@ This Recommendation algorithm is used by [Amazon.com](https://www.amazon.com/)
 ![Amazon](https://cloud.githubusercontent.com/assets/1485195/17956534/72ca4d3a-6ac5-11e6-985e-9074251b5f35.jpg)
 
 
-Please [here](http://qiita.com/yudsuzuk/items/6de4650cb6d50236533e) for details.
+Please check [here](http://qiita.com/yudsuzuk/items/6de4650cb6d50236533e) for details.
 
 Requirements
 -----------------------------
