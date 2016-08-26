@@ -1,7 +1,7 @@
 {
     "name": "yuzuru-s/redis-recommend",
     "description": "Wrapping Redis's sorted set APIs for specializing recommending operations.",
-    "keywords": ["redis", "recommend", "sorted set", "jaccard", "collaborative filtering"],
+    "keywords": ["redis", "recommend", "sorted set", "jaccard", "collaborative filtering", "machine learning"],
     "homepage": "https://github.com/YuzuruS/redis-recommend",
     "type": "library",
     "license": "MIT",
