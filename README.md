@@ -36,13 +36,13 @@ Installation
 ```
 {
     "require": {
-       "yuzuru-s/recommend": "1.0.*"
+       "yuzuru-s/redis-recommend": "1.0.*"
     }
 }
 ```
 
 ```
-$ php composer.phar update yuzuru-s/recommend --dev
+$ php composer.phar update yuzuru-s/redis-recommend --dev
 ```
 
 How to use
