@@ -3,8 +3,8 @@ Simple Recommendation library for Redis and PHP
 
 [![Coverage Status](https://coveralls.io/repos/github/YuzuruS/redis-recommend/badge.svg?branch=master)](https://coveralls.io/github/YuzuruS/redis-recommend?branch=master)
 [![Build Status](https://travis-ci.org/YuzuruS/redis-recommend.png?branch=master)](https://travis-ci.org/YuzuruS/redis-recommend)
-[![Stable Version](https://poser.pugx.org/yuzuru-s/recommend/v/stable)](https://packagist.org/packages/yuzuru-s/recommend)
-[![Download Count](https://poser.pugx.org/yuzuru-s/recommend/downloads.png)](https://packagist.org/packages/yuzuru-s/recommend)
+[![Stable Version](https://poser.pugx.org/yuzuru-s/redis-recommend/v/stable)](https://packagist.org/packages/yuzuru-s/redis-recommend)
+[![Download Count](https://poser.pugx.org/yuzuru-s/redis-recommend/downloads.png)](https://packagist.org/packages/yuzuru-s/redis-recommend)
 
 Abstracting Redis's `Sorted Set` APIs and PHP to use as a recommending system.  
 This Recommendation algorithm use `Collaborative Filtering`, especially [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index)
