@@ -64,6 +64,8 @@ Currently tested with PHP 7.0.0 + Redis 2.6.12.
 
 History
 ----------------------------
+- 1.0.6
+  - bug fix
 - 1.0.5
   - supports travis CI and passed test and display code coverage.
 - 1.0.0
