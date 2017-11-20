@@ -5,6 +5,7 @@ php:
   - 7.0
   - 5.6
   - 5.5
+  - hhvm
 services:
   - redis-server
 before_install:

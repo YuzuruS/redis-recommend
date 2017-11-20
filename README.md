@@ -24,7 +24,7 @@ Requirements
 - PhpRedis extension
   - https://github.com/nicolasff/phpredis
 - PHP
-  - >=5.5 >=5.6, >=7.0
+  - >=5.5 >=5.6, >=7.0, HHVM
 - Composer
 
 
@@ -64,6 +64,8 @@ Currently tested with PHP 7.1.0 + Redis 2.6.12.
 
 History
 ----------------------------
+- 1.0.8
+  - support HHVM
 - 1.0.7
   - support php7.1
 - 1.0.6
