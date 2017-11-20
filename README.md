@@ -24,7 +24,7 @@ Requirements
 - PhpRedis extension
   - https://github.com/nicolasff/phpredis
 - PHP
-  - >=5.5 >=5.6, >=7.0, HHVM
+  - >=5.5 >=5.6, >=7.0, >=7.1
 - Composer
 
 
@@ -64,6 +64,8 @@ Currently tested with PHP 7.1.0 + Redis 2.6.12.
 
 History
 ----------------------------
+- 1.0.9
+  - unsupport HHVM
 - 1.0.8
   - support HHVM
 - 1.0.7
@@ -79,7 +81,7 @@ History
 
 License
 ----------------------------
-Copyright (c) 2016 YUZURU SUZUKI. See MIT-LICENSE for further details.
+Copyright (c) 2017 YUZURU SUZUKI. See MIT-LICENSE for further details.
 
 Copyright
 -----------------------------
