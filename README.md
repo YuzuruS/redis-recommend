@@ -59,11 +59,13 @@ Run with default setting.
 % vendor/bin/phpunit -c phpunit.xml.dist
 ```
 
-Currently tested with PHP 7.1.0 + Redis 2.6.12.
+Currently tested with PHP 7.2.0 + Redis 2.6.12.
 
 
 History
 ----------------------------
+- 1.0.10
+  - support php7.2
 - 1.0.9
   - unsupport HHVM
 - 1.0.8
