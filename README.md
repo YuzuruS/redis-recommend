@@ -24,7 +24,7 @@ Requirements
 - PhpRedis extension
   - https://github.com/nicolasff/phpredis
 - PHP
-  - >=5.5 >=5.6, >=7.0, >=7.1
+  - >=5.5 >=5.6, >=7.0, >=7.1, >= 7.2
 - Composer
 
 
