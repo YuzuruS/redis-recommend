@@ -43,13 +43,13 @@ foreach ($ratings as $rating) {
 // calclation of jaccard
 $recommend->calcJaccard($all_item_ids);
 
-/**
-	array(2) {
-	  [0]=>
-	  string(1) "5"
-	  [1]=>
-	  string(1) "3"
-	}
-*/
 // get recommended items of item_id:1
-var_dump($recommend->getItems(1));
+print_r($recommend->getItems(1));
+
+/*
+Array
+(
+    [0] => 5
+    [1] => 3
+)
+*/
